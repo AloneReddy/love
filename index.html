@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div class="hesd">
+        <h1>💕💕    Hello!     💕💕</h1>
+        <p> Dear Love Birds....,</p>
+        <img src="love8.webp" alt="Cute Love 💘 Birds.., ">
+
+      </div>
+      <div class="detail">
+      <dl>
+        <lt><h2>Valentence Day..,</h2></lt>
+        <dd>
+       Valentines Day, also called St. Valentine Day, holiday (February 14) when lovers express their affection with greetings and gifts........<br> Given their similarities, it has been suggested that the holiday has origins in the Roman festival of Lupercalia, held in mid-February.<br> The festival, which celebrated the coming of spring, included fertility rites and the pairing off of women with men by lottery. <br>At the end of the 5th century, Pope Gelasius I forbid the celebration of Lupercalia and is sometimes attributed with <br> replacing  it with St. Valentine’s Day, but the true origin of the holiday is vague at best.<br> Valentine’s Day did not come to be celebrated <br> as a day of romance until about the <br> 14th century.
+     </dd>
+     </dl>
+      </div>
+      <div class="code">
+        <h2>Check you're Score Here..,</h2>
+        <input type="submit" onclick="LoveScore()" value="check My Score"></input>
+      </div>
+      <script type="text/javascript">
+      function LoveScore() {
+         var LoveScore = Math.random();
+         LoveScore=LoveScore * 100;
+         LoveScore=Math.floor(LoveScore) + 1;
+         var Name=prompt("Enter your name,","Enter..,");
+         var Friend=prompt("Enter Friend name,","Enter..,");
+         if(LoveScore >= 90)
+         {
+             alert(Name + " and " + Friend + " are best Lovers. You're LoveScore is : " +  LoveScore + " %.");
+             alert( "Wish you 💕💕 Happy valentence Day 💕💕 ");
+         }
+         else if(LoveScore >= 65)
+         {
+             alert(Name + " and " + Friend + "  both True lovers .You're LoveScore is :   " + LoveScore +  "%.");
+             alert( "Wish you 💕💕Happy valentence Day 💕💕 ");
+         }
+         else if(LoveScore >= 30)
+         {
+             alert("You're True  friends. And both friend's score is :   " + LoveScore +  "%.");
+             alert( "Wish you 💕Happy FriendShip Day💕 ");
+         }
+         else if(LoveScore >= 10)
+         {
+
+            alert("You're Friends.And you're score :   " + LoveScore +  "%.");
+            alert( "Wish you 💕Happy FriendShip Day💕 ");
+         }
+         else
+         {
+           alert(" FriendShip : " + LoveScore +"%.");
+           alert( "Wish you Happy FriendShip Day💕 ");
+         }
+       }
+       </script>
+  </body>
+</html>
